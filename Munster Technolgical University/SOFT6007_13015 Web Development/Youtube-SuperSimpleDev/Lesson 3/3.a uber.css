@@ -1,0 +1,21 @@
+.Request{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 105px;
+    border: none;
+    border-style: solid;
+    transition: background-colour 0.15s;
+    
+}
+.Request:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+
+}
+.Request:active{
+    background-color: aliceblue;
+    opacity: 0.3;
+}
+

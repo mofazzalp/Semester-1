@@ -1,0 +1,49 @@
+.a{
+    color: rgb(16, 101, 117);
+    font-weight: bold;
+}
+.stock_price{
+    color: rgb(16, 101, 117);
+    font-weight: bold;
+}
+.add_t0_cart{
+    background-color: rgb(252, 208, 19);
+    color: black;
+    font-weight: bold;
+    height: 36px;
+    width: 120px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: rgb(252, 208, 19);
+    border-style: solid;
+    cursor: pointer;
+    transition: background-colour 0.15s;
+}
+.add_t0_cart:hover{
+    background-color: rgb(185, 167, 93);
+    opacity: 0.9;
+
+}
+.add_t0_cart:active{
+    background-color: rgb(197, 172, 62);
+}
+.buy_now{
+    background-color: rgb(247, 125, 1);
+    color: black;
+    font-weight: bold;
+    height: 36px;
+    width: 120px;
+    border-radius: 18px;
+    border-color: rgb(247, 125, 1);
+    border-style: solid;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+.buy_now:hover{
+    background-color: rgb(217, 137, 58);
+    opacity: 0.9;
+}
+.buy_now:active{
+    background-color: rgb(198, 163, 128);
+}

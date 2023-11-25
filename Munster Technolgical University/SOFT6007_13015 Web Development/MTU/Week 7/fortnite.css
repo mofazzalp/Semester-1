@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+h1{
+    width: 900px;
+    margin: auto;
+    font-size: 4em;
+    letter-spacing: 0.4em;
+    color: rgb(114, 80, 38);
+    text-align: left;
+}
+h2{
+        font-size: 2em;
+        background-color: yellow;
+        border-top: 2px;
+        border-color: black;
+        border-style: solid;
+        font-variant: small-caps;
+}
+.gamename{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(214, 81, 81);
+}
+#sidenote{
+    background-color: aqua;
+    color: rgb(26, 140, 240);
+    border: 5px;
+    border-color: black;
+    font-family: "Brush Script MT", cursive;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+footer{
+    font-size: 80%
+}
+.Fortnite{
+    float:right
+}

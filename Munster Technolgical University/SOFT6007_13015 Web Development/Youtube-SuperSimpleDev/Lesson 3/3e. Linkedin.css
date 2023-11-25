@@ -1,0 +1,44 @@
+.apply_button{
+background-color: rgb(0, 56, 119);
+color: white;
+height: 36px;
+width: 200px;
+border-radius: 18px;
+font-weight: bold;
+cursor: pointer;
+border-color: rgb(0, 56, 119);
+border-style: solid;
+}
+.apply_button:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    border-width: 1px;
+    color: rgb(0, 56, 119);
+}
+.apply_button:active{
+    background-color: rgb(79, 84, 90);
+    opacity: 0.9;
+}
+.save_button{
+background-color: white;
+color: rgb(12, 85, 176);
+height: 36px;
+width: 70px;
+border-radius: 18px;
+border-color: rgb(12, 85, 176);
+border-style: solid;
+border-width: 1px;
+margin-left: 5px;
+font-weight: bold;
+transition: background-colour 0.15s;
+}
+.save_button:hover{
+    background-color: rgb(12, 85, 176);
+    color: white;
+    opacity: 0.9;
+
+}
+.save_button:active{
+    background-color: rgb(92, 99, 108);
+    opacity: 0.9;
+}

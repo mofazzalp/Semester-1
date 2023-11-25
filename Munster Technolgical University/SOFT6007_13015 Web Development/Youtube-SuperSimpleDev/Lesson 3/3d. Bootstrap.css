@@ -1,0 +1,25 @@
+.get_started{
+    background-color: rgb(108, 71, 169);
+    color: white;
+    height: 40px;
+    width: 105px;
+    border-radius: 2px;
+    border-color: rgb(108, 71, 169);
+    border-style: solid;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.download{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
+}

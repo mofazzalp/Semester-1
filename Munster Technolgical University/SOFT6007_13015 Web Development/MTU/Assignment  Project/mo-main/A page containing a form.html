@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A page containing a form</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+
+<body>
+    <h1>A page containing a form</h1>
+    <div class="topnav">
+
+        <div>
+            <a href="Homepage.html">Homepage</a>
+            <a href="An Adopt A Pet page.html">An Adopt A Pet page</a>
+        </div>
+        <div class="home_effect">
+            <a href="A page containing a form.html">A page containing a form</a>
+        </div>
+        <div>
+            <a href="Contact Us Page.html">Contact Us Page</a>
+            <a href="About Us Page.html">About Us Page</a>
+        </div>
+    </div>
+    <br>
+
+    <form action="https://webdevcit.com/displayvalues.php" method="post" enctype="multipart/form-data">
+        
+        <div class="from_div">
+            <div class="from_div_inside1">
+                <label for="name">Person's Name:</label> <br>
+                <input type="text" id="name" name="name" required> <br>
+    
+                <label for="email">Email Address:</label> <br>
+                <input type="email" id="email" name="email" required> <br>
+    
+                <label for="dob">Date of Birth:</label> <br>
+                <input type="date" id="dob" name="dob" required> <br>
+            </div>
+            <div class="from_div_inside1">
+                <label>Is this your first time adopting a virtual pet?</label> <br>
+                <label><input type="radio" name="first_time" value="yes" required> Yes</label> <br>
+                <label><input type="radio" name="first_time" value="no" required> No</label> <br>
+    
+                <label for="pet">Pet to Adopt:</label> <br>
+                <select id="pet" name="pet" required>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="fish">Fish</option>
+                    <option value="bird">Bird</option>
+                </select> <br> <br>
+            </div>
+    
+            <div class="from_div_inside1">
+                <label for="home_explanation">Explain how you will provide a good home for the virtual pet:</label> <br>
+                <textarea id="home_explanation" name="home_explanation" rows="4" required></textarea> <br>
+            </div>
+            <div class="from_div_inside1">
+                <label>Interested in:</label> <br>
+                <label><input type="checkbox" name="social_communities"> Online Social Communities</label> <br>
+                <label><input type="checkbox" name="multiplayer_challenges"> Multiplayer Challenges</label> <br>
+                <label><input type="checkbox" name="create_storyline"> Create a Storyline for a Virtual Pet</label> <br>
+                <label><input type="checkbox" name="create_pet"> Create a New Virtual Pet</label> <br>
+            </div>
+    
+        </div>
+
+
+        <div class="from_div_4">
+            <label for="file_upload">Upload a File (Storyline or Picture of Virtual Pet):</label> <br>
+            <input type="file" id="file_upload" name="file_upload"> <br>
+            <button type="submit">Submit</button>
+            <button type="button" onclick="window.location.href='cancel_page.html'">Cancel</button>
+        </div>
+    </form>
+</body>
+
+</html>
