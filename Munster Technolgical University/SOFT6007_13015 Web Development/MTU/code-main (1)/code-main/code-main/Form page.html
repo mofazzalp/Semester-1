@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pet Adoption Form</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pet Adoption Form</h1>
+    <div class="topnav">
+        <div>
+            <a href="Homepage.html">Homepage</a>
+            <a href="Adopt a Pet.html">Pet Adoption List</a>
+        </div>
+        <div class="home_effect">
+            <a href="Form page.html">Pet Adoption Form</a>
+        </div>
+        <div>
+            <a href="Contact-Us-Page.html">Contact Us</a>
+            <a href="About-Us-Page.html">About Us</a>
+        </div>
+    </div>
+    <br>
+
+    <!-- Pet Adoption Form -->
+    <form action="https://webdevcit.com/displayvalues.php" method="post" enctype="multipart/form-data">
+        
+        <div class="from_div">
+            <div class="from_div_inside1">
+                <label for="Person Name">Person's Name:</label> <br>
+                <input type="text" id="name" name="name" required> <br>
+    
+                <label for="Email Address">Email Address:</label> <br>
+                <input type="email" id="email" name="email" required> <br>
+    
+                <label for="Date Of Birth">Date of Birth:</label> <br>
+                <input type="date" id="dob" name="dob" required> <br>
+            </div>
+
+            <div class="from_div_inside1">
+                <label>Is this your first time adopting a virtual pet?</label> <br>
+                <label><input type="radio" name="First_Time_Adbotation" value="yes" required> Yes</label> <br>
+                <label><input type="radio" name="First_Time_Adbotation" value="no" required> No</label> <br>
+    
+                <label for="pet">Pet to Adopt:</label> <br>
+                <select id="pet" name="pet" required>
+                    <option value="" disabled selected>Select a pet</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Bird">Bird</option>
+                    <option value="Rabbit">Rabbit</option>
+                </select> <br> <br>
+            </div>
+    
+            <div class="from_div_inside1">
+                <label for="home_explanation">Explain how you will provide a good home for the virtual pet:</label> <br>
+                <textarea id="home_explanation" name="home_explanation" rows="4" required></textarea> <br>
+            </div>
+            
+            <div class="from_div_inside1">
+                <label>Interested in:</label> <br>
+                <label><input type="checkbox" name="social_communities"> Online Social Communities</label> <br>
+                <label><input type="checkbox" name="multiplayer_challenges"> Multiplayer Challenges</label> <br>
+                <label><input type="checkbox" name="create_storyline"> Create a Storyline for a Virtual Pet</label> <br>
+                <label><input type="checkbox" name="create_pet"> Create a New Virtual Pet</label> <br>
+            </div>
+        </div>
+
+        <div class="go4">
+            <div class="from_div_4">
+                <label for="file_upload">Upload a File (Storyline or Picture of Virtual Pet):</label> <br>
+                <input type="file" id="file_upload" name="file_upload"> <br>
+                <button type="submit">Submit</button>
+                <button type="button" onclick="window.location.href='cancel_page.html'">Cancel</button>
+            </div>
+        </div>
+    </form>
+
+    
+    <footer class="footer">
+        <pre>      &copy; 2023 Pet Paradise Corner. All rights reserved.
+            <small>a sister company of <strong>Mtuster Technological University</strong> </small> </pre>
+    </footer>    
+
+</body>
+
+</html>
