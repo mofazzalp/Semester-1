@@ -23,5 +23,9 @@ while loop == 1:
     if choose == 1:
         print("A")
 
-    loop = int(input("Are you finished (yes/no)? "))
+    user_ask = input("Are you finished (yes/no)? ")
+    if user_ask == 'no':
+        loop = 1
+    else:
+        loop = 2
 
