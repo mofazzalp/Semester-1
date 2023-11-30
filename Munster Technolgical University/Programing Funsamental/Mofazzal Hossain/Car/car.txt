@@ -1,0 +1,3 @@
+Nissan,Leaf,2019,Electric,32000
+Ford,Ka,2016,Petrol,15000
+Audi,A5,2010,Diesel,2200

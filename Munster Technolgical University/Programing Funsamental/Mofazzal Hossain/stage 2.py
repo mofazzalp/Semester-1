@@ -59,13 +59,13 @@ while loop == 0:
     print(questions1)
     average_score = (correct_answers / (user_option * first_average)) * 100
     if 0 <= average_score < 50:
-        print(f"{first_name} you got {average_score:.2f}% {"U+1F613"}.")
+        print(f"{first_name} you got {average_score:.2f}% \U0001F613.")
     elif 50 <= average_score < 70:
-        print(f"{first_name} you got {average_score:.2f}% {"U+1F60D"}.")
+        print(f"{first_name} you got {average_score:.2f}% \U0001F60D.")
     elif 70 <= average_score < 99:
-        print(f"{first_name} you got {average_score:.2f}% {"U+1F60F"}.")
+        print(f"{first_name} you got {average_score:.2f}% \U0001F60F.")
     elif average_score == 100:
-        print(f"{first_name} you got {average_score:.2f}% {"U+1F31F"}.")
+        print(f"{first_name} you got {average_score:.2f}% \U0001F31F.")
     Ask_again = input("Are you finished (yes/no)? ")
     if Ask_again == 'no':
         loop = 0

@@ -1,0 +1,7 @@
+Weekdays1=Monday
+Weekdays2=Tuesday
+Weekdays3=Firstly
+Weekdays4=Thursday
+Weekdays5=Friday
+Weekdays6=Saturday
+Weekdays7=Sunday

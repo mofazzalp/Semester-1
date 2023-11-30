@@ -11,8 +11,10 @@ choose = int(input(menu))
 first_name = "m"
 choose = 2
 
+
 SPECIAL_CHARACTER_CORRECT = u'\u2713'
 SPECIAL_CHARACTER_WRONG = u'\u274c'
+GRADE = 0
 
 first_average = 0
 correct_answers = 0
@@ -28,8 +30,7 @@ if choose == 2:
             connection = open("1.txt", "r")
         elif current_level == 2:
             connection = open("2.txt", "r")
-            first_average += 1
-            word_questions1 = ''
+        word_questions1 = ''
         for line in connection:
             Count_inConnection += 1
             line = line.strip()
@@ -43,21 +44,7 @@ if choose == 2:
                 word_questions1 += f"{Count_inConnection} : {weekdays_count}, = {weekdays} {SPECIAL_CHARACTER_CORRECT}\n"
             else:
                 word_questions1 += f"{Count_inConnection} : {weekdays_count}, = {user_answer} {SPECIAL_CHARACTER_WRONG} should be {weekdays}\n"
-        average_score = (correct_answers / (Count_inConnection * first_average)) * 100
-        print(average_score)
-        if 0 <= average_score < 50:
-            print(f"{first_name} you got {average_score:.2f}% \U0001F613.")
-        elif 50 <= average_score < 70:
-            print(f"{first_name} you got {average_score:.2f}% \U0001F60D.")
-        elif 70 <= average_score < 99:
-            print(f"{first_name} you got {average_score:.2f}% \U0001F60F.")
-        elif average_score == 100:
-            print(f"{first_name} you got {average_score:.2f}% \U0001F31F.")
-        print(word_questions1)
-        Ask_again = input("Are you finished (yes/no)? ")
-        if Ask_again == 'no':
-            loop = 0
-        else:
-            loop = 2
+            average_score = (correct_answers / (Count_inConnection * first_average)) * 100
 
+print(word_questions1)
 connection.close()
