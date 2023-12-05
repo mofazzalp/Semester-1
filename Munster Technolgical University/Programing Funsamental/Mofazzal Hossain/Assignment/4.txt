@@ -1,0 +1,3 @@
+P=Python
+J=Java
+JS=JavaScript
