@@ -1,0 +1,171 @@
+Summary of Bookings
+Ger Murphy Ground Floor 3
+Total no. of People: 10s 3
+Summary of Bookings
+====================
+Ger Murphy Ground Floor 3
+Total no. of People: 10s 3
+Summary of Bookings
+====================
+Ger Murphy Ground Floor 3
+Total no. of People: 10s 3
+Summary of Bookings
+====================
+2          Ground Floor 3
+Total no. of People: 10s 6
+Summary of Bookings
+====================
+f          Ground Floor 3
+Total no. of People: 10s 3
+Summary of Bookings
+====================
+mnn        Ground Floor 2
+Total no. of People: 10s 2
+Summary of Bookings
+====================
+m          Ground Floor 3
+Total no. of People: 10s 3
+Summary of Bookings
+====================
+t          Box        2
+Total no. of People: 10s 5
+Summary of Bookings
+====================
+Ger Murphy Ground Floor 3Mofazzal   Box        4
+Total no. of People:  7
+Summary of Bookings
+====================
+Ger Murphy Ground Floor 3 
+mofazal    Box        4 
+
+Total no. of People:  7
+Summary of Bookings
+====================
+Da         Ground Floor 3 
+fd         Box        4 
+
+Total no. of People:  7 
+
+Location of Booked Seats
+--------------------
+Summary of Bookings
+====================
+mofazzal   Ground Floor 3 
+Hossain    Box        4 
+
+Total no. of People:  7 
+
+Summary of Bookings
+====================
+Mofazzal   Ground Floor 3 
+Hossain    Box        4 
+
+Total no. of People:  7 
+
+Summary of Bookings
+====================
+f          Ground Floor 3 
+f          Box        4 
+
+Total no. of People:  7 
+
+Summary of Bookings
+====================
+mo         Ground Floor 3 
+h          Box        4 
+
+Total no. of People:  7 
+
+Summary of Bookings
+====================
+d          Ground Floor 3 
+g          Balcony    4 
+
+Total no. of People:  7 
+
+Summary of Bookings
+====================
+m          Ground Floor 5 
+d          Balcony    3 
+
+Total no. of People:  8
+Summary of Bookings
+====================
+r          Ground Floor 2 
+r          Balcony    1 
+e          Box        2 
+r          Box        2 
+
+Total no. of People:  7
+Summary of Bookings
+====================
+Mofazzal   Ground Floor 4 
+Hossain    Balcony    5 
+
+Total no. of People:  9 
+
+          
+Summary of Bookings
+====================
+g                    Ground Floor      1 
+m                    Balcony           2 
+l                    Box               3 
+h                    Ground Floor      1 
+h                    Box               6 
+
+Total no. of People:  13
+Summary of Bookings
+====================
+1                    Ground Floor      1 
+2                    Balcony           2 
+3                    Box               3 
+4                    Ground Floor      1 
+t                    Ground Floor      1 
+
+Total no. of People:  8
+Summary of Bookings
+====================
+M               Ground Floor      5 
+L               Balcony           5 
+
+Total no. of People:                         10
+Summary of Bookings
+====================
+k               Ground Floor      6 
+
+Total no. of People:                6
+Summary of Bookings
+====================
+m               Ground Floor      5 
+l               Balcony           5 
+
+Total no. of People:          10
+          
+Summary of Bookings
+====================
+m               Ground Floor      5 
+l               Balcony           5 
+
+Total no. of People:          10
+          
+Summary of Bookings
+====================
+m               Ground Floor      5 
+l               Balcony           5 
+
+Total no. of People:          10
+          
+Summary of Bookings
+====================
+m               Ground Floor      5 
+k               Box               5 
+
+Total no. of People:          10
+          
+Summary of Bookings
+====================
+m               Ground Floor      3 
+m               Box               2 
+
+Total no. of People:           5
+          
