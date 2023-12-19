@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Superheroes</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #a1a0a0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #a68b8b;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            font-size: 1.2em;
+            margin: 3px;
+        }
+
+        header p {
+            display: inline;
+            margin-right: 20px;
+            /* Optional: Add some space between the paragraphs */
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        nav button {
+            background-color: #555;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            display: flex;
+            justify-content: left;
+            flex-grow: 1;
+            background-color: #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            width: calc(95% + 20px);
+        }
+
+        .divclass1 {
+            width: 250px;
+        }
+        .divclass2{
+            width: 400px;
+        }
+        .divclass3{
+            display: inline;
+            width: 400px;
+        }
+        .tableclass{
+            color: #555;
+            border: 3px solid;
+            border-color: rgb(110, 110, 171);
+            background-color: rgb(231, 240, 248);
+                    
+        }
+        .home_column{
+            width: 150px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        .link {
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"],
+        input[type="button"] {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        
+
+        .topnav {
+
+            overflow: hidden;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+
+        .topnav a {
+            background-color: #333;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border-radius: 10px;
+            margin: 3px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        footer{
+            display: flex;
+            justify-content:flex-end;
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+            background-color: #333;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Superheroes</h1>
+    </header>
+    <div class="topnav">
+        <a href="https://www.dc.com/comics">DC Comics</a>
+        <a href="https://www.marvel.com/movies">Marvel Univers</a>
+        <a href="https://www.imdb.com/search/title/?title_type=tv_series&genres=animation&keywords=anime&languages=ja">Japanese
+            Anime</a>
+        <a href="https://www.gamesradar.com/best-game-characters/">Video Game Characters</a>
+    </div>
+    <main class="">
+
+        <nav>
+            <div class="bottom">
+                <form onsubmit="return false">
+                    <label for="rateWebsite">Rate this website?</label><br>
+                    <p>1<input onchange="slide()" type="range" min="0" max="5" id="rateWebsite">6</p>
+                    <span id="opinion">Decent!</span>
+                </form>
+                <img id="logo" onmouseleave="revertLogo()" onmouseover="changeLogo()" src="images/A-256.png" width="100"
+                    height="100" alt="Avengers logo">
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="divclass1">
+                <h2 style="color: #ac9494;">Who is your favorite online Character?</h2>
+                <form>
+                    Enter your choice here: <input type="text" id="userFav" name="userFav" required><br><br>
+                    <input type="button" value="Submit" id="submitButton" onclick="displayUserText()">
+                </form>
+                <p>The Character you selected was: <span id="displayFav" style="font-weight: bold;"></span></p><br>
+                <hr>
+
+            </div>
+            <div>
+                <h2>Play your game!</h2>
+                <p class="divclass2">Submit your choice then click on Joystick to view a brief biography of one of the Avengers.</p>
+                <p class="divclass2">Was your favorite character chosen? <input type="button" value="Find out!" class="hide"
+                        id="findOutButton" onclick="checkValues()"></p>
+                <div class="hide" id="playButton">
+                    <input type="image" src="images/old-joystick-old-retro-joystick-1-3-apron.jpg  " width="50" height="50" alt="Play button"
+                        onclick="displayBio()">
+                        <!--https://www.desertcart.ie/products/168194145-wired-gaming-controller-joystick-gamepad-with-dual-vibration-pc-game-controller-compatible-with-ps3-switch-windows-10-8-7-pc-laptop-tv-box-android-mobile-phones-6-5-ft-usb-cable-->
+                </div>
+                <p class="hide" id="displayGuess"></p>
+            </div>
+            <div class="divclass3" id="bio">
+                <table class="tableclass">
+                    <tr>
+                        <td>League:</td>
+                        <td id="league">Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td>Character:</td>
+                        <td id="avenger">Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td id="name">Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td>Actor:</td>
+                        <td id="actor">Placeholder</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><img src="images/im.png" width="100" height="100" alt="Hero Selected"
+                                id="heroImg"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="">
+                    <img class="home_column" src="images/Marvel_Universe_(Civil_War).jpg" width="120" height="150" alt="Marvel_Universe">
+                    <!--https://en.wikipedia.org/wiki/Marvel_Universe-->
+                </div>
+                <div class="">
+                    <img class="home_column" src="images/DC_Universe_by_Gary_Frank.jpg" width="120" height="150" alt="DC_Universe">
+                    <!---https://en.wikipedia.org/wiki/DC_Universe-->
+                </div>
+                <div class="">
+                    <img class="home_column" src="images/jujutsu-kaisen-season-2.webp" width="100" height="150" alt="Anime">
+                    <!--https://www.google.ie/search?sca_esv=592185140&hl=en&q=anime&tbm=isch&source=lnms&sa=X&ved=2ahUKEwi11u6zxZuDAxX1VkEAHbCVCdkQ0pQJegQIDBAB&biw=1232&bih=616&dpr=1.5#imgrc=NQmfbrLCLp83OM-->
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <br>
+    <footer class="footer">
+        <pre>
+            Email Address : mofazzal.hossain@mycit.ie     
+            &copy; 2023 Online Fun. All rights reserved.
+            <small>a sister company of <strong>Mtuster Technological University</strong> </small> 
+        </pre>
+    </footer>
+    
+
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
